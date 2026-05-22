@@ -1,0 +1,16 @@
+name = "hiep-binh-lang-nghe"
+compatibility_date = "2026-05-22"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hiep-binh-lang-nghe"
+database_id = "replace-with-cloudflare-d1-database-id"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "hiep-binh-lang-nghe-files"
+
+[vars]
+APP_ORIGIN = "https://hiepbinhlangnghe.com"
+FROM_EMAIL = "Hiệp Bình Lắng Nghe <no-reply@hiepbinhlangnghe.com>"
